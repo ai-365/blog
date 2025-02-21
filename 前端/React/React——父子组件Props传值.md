@@ -1,9 +1,7 @@
 
-### 父子组件间通过 Props 通信
-
 子组件的示例代码如下：
 
-```js
+```
 // Props 子组件
 export default ({ count, handleClick }) => {
 
@@ -48,4 +46,3 @@ export default ()=> {
 
 }
 ```
-

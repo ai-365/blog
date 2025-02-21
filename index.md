@@ -1,3 +1,10 @@
+<style scoped>
+    a{
+        display:inline-block;
+         margin-bottom:10px;
+    }
+</style>
+
 ::: tip 人工智能
 [人工智能](人工智能/index.md)  
 [Python](人工智能/Python/index.md)  
@@ -14,6 +21,7 @@
 :::
 
 ::: tip Linux
+[Git](Linux/Git/index.md)   
 [Linux](Linux/index.md)  
 :::
 

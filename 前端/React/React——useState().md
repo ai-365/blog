@@ -1,7 +1,4 @@
 
-#  React Hooks
-
-###    useState()
 
 useState()函数返回一个包含两个值的数组：变量和更新该变量的函数。变量的初始值就是useState()的第一个参数。
 
@@ -44,26 +41,5 @@ export default () => {
 - useState()和useEffect()必须写在组件的内部；
 - 使用按钮点击事件时，必须写成onClick小驼峰形式，onclick写法在React中是错的；
 - onClick的值是函数名称，一定不能加括号。
-
-###  useEffect()
-
-
-useEffect()表示在挂载和重新渲染之后执行某些操作。
-
-```js
-import { useState, useEffect } from 'react'
-
-export default () => {
-
-    let [count, setCount] = useState(0)
-
-    useEffect(() => console.log('count值已更新为'+ count ))
-
-    return <button onClick={()=>setCount(count + 1)}>点了 {count} 次 ！</button>
-
-}
-```
-
-
 
 

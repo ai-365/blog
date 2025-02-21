@@ -1,23 +1,30 @@
 <style scoped>
       a{
-        display:block;
-        padding: 20px;
-        background: azure;
-        border-radius: 10px;
-      }
-      a:nth-of-type(2n+1){
-          background:  pink;
+        display: inline-block;
+        margin-bottom: 10px;
       }
 </style>
 
-[React基础](React基础.md)      
-[Props传值](Props传值.md)      
-[Redux全局状态管理](Redux全局状态管理.md)      
-[React Hooks](React-Hooks.md)      
-[Next.js](Next.js.md)          
+:::  tip  基础
+[新建React项目](React——新建React项目.md)   
+[修改样式](React——修改样式.md)  
+[在浏览器中使用](React——在浏览器中使用.md)
+:::   
 
+[表单双向绑定](React——表单双向绑定.md)     
+[服务端渲染框架：next.js](React——服务端渲染框架：next.js.md)
 
+::: tip  状态管理
+[父子组件Props传值](React——父子组件Props传值.md)  
+[任意组件Redux通信](React——任意组件Redux通信.md)  
+:::
 
+::: tip  组件
+[组件](React——组件.md)     
+[组件的生命周期](React——组件的生命周期.md)
+:::
 
-
-
+:::  warning  React Hooks
+[useEffect()](React——useEffect().md)  
+[useState()](React——useState().md)
+:::
