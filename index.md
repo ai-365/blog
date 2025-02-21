@@ -6,23 +6,15 @@
 </style>
 
 ::: tip 人工智能
-[人工智能](人工智能/index.md)  
-[Python](人工智能/Python/index.md)  
+[人工智能总目录](人工智能/人工智能总目录.md)  
 :::
 
 ::: warning 前端
-[JavaScript](前端/00JavaScript——index.md)              
-[Node.js](前端/00Node.js——index.md)            
-[CSS](前端/00CSS——index.md)              
-[Electron](前端/Electron/index.md)            
-[React](前端/React/00React——index.md)            
-[React Native](前端/React-Native/React-Native——index.md)            
-[WebRTC](前端/WebRTC/index.md)      
+[前端总目录](前端/前端总目录.md)    
 :::
 
 ::: tip Linux
-[Git](Linux/Git/index.md)   
-[Linux](Linux/00Linux——index.md)  
+[Linux总目录](Linux/Linux总目录.md)
 :::
 
 
