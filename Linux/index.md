@@ -16,7 +16,7 @@
 :::       
 
 ::: warning Git和Github
-[Git](Git.md)
+[Git](Git/Git汇总.md)
 :::
      
 ::: tip Docker
