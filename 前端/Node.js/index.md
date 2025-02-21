@@ -10,7 +10,7 @@
 :::
 
 
-::: tip 服务器
+::: tip HTTP
 [HTTP](HTTP.md)
 :::
 
