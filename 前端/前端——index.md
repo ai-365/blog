@@ -5,7 +5,7 @@
         padding: 20px  20px 5px;
         border-radius: 10px;
         margin: 10px;
-        border: none;
+        border-style: none;
     }
     blockquote:nth-of-type(even){
         background: lavender;
