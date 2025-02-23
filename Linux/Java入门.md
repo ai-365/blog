@@ -1,5 +1,18 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-#  Java入门
+- [HelloWorld](#helloworld)
+- [包和导入](#包和导入)
+- [浮点类型](#浮点类型)
+- [泛型数组](#泛型数组)
+- [var](#var)
+- [ArrayList](#arraylist)
+- [HashMap](#hashmap)
+- [泛型HashMap](#泛型hashmap)
+- [Map](#map)
+- [线程](#线程)
+- [读取输入](#读取输入)
+
 
 ### HelloWorld
 

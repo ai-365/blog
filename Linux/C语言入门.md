@@ -1,5 +1,10 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-#  C 语言
+- [数组和指针](#数组和指针)
+- [字符串和指针](#字符串和指针)
+- [结构体和指针](#结构体和指针)
+
 
 printf()函数的作用是打印内容到控制台。
 
