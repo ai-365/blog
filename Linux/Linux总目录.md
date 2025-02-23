@@ -12,7 +12,7 @@
 [Git——git-clone.md](Git——git-clone.md)      
 [Git——git-commit.md](Git——git-commit.md)      
 [Git——git-push.md](Git——git-push.md)      
-[Git——git-remote:管理远程仓库.md](Git——git-remote:管理远程仓库.md)      
+[Git——git-remote:管理远程仓库.md](Git——gitremote:管理远程仓库.md)      
 [Git——index.md](Git——index.md)      
 [Git——个人项目最常用的四个命令.md](Git——个人项目最常用的四个命令.md)      
 [Git——安装Git.md](Git——安装Git.md)      
