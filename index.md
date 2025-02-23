@@ -9,7 +9,7 @@
 > [Python](Python/index.md)  
 
 > [!TIP]   CSS
-> [Python](CSS/index.md)  
+> [CSS](CSS/index.md)  
 
 
 > [!IMPORTANT]    
