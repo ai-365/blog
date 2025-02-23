@@ -1,6 +1,6 @@
      
 ::: tip  基础     
-[基础](基础.md)     
+[基础](Linux——基础.md)     
 [Bash Shell](Bash-Shell.md)        
 [命令行语法规则](命令行语法规则.md)
 :::     
@@ -16,7 +16,7 @@
 :::       
 
 ::: warning Git和Github
-[Git](Git.md)
+[Git](Git——Git.md)
 :::
      
 ::: tip Docker
@@ -40,12 +40,12 @@
      
      
 ::: tip 底层控制     
-[分区管理](分区管理.md)          
+[分区管理](Linux——分区管理.md)          
 [Linux的进程和服务](Linux的进程和服务.md)          
 :::        
      
 ::: tip  网络协议
-[TCP IP](TCP-IP.md)     
+[TCP IP](Linux——TCP-IP.md)     
 :::
 
 

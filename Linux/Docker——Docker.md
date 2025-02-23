@@ -1,6 +1,18 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-# Docker
-
+- [镜像和容器的概念区别](#镜像和容器的概念区别)
+- [docker主要命令汇总](#docker主要命令汇总)
+- [docker run命令](#docker-run命令)
+- [docker build命令](#docker-build命令)
+- [目录映射](#目录映射)
+- [编写Dockerfile文件](#编写dockerfile文件)
+  - [FROM ： 获取基础镜像](#from--获取基础镜像)
+  - [COPY：复制本地文件到镜像](#copy复制本地文件到镜像)
+  - [RUN：执行命令](#run执行命令)
+  - [WORKDIR ：设置初始目录](#workdir-设置初始目录)
+  - [ENV：设置环境变量](#env设置环境变量)
+  - [CMD ：容器启动后的初识命令](#cmd-容器启动后的初识命令)
 
 ##  镜像和容器的概念区别
 
@@ -52,6 +64,8 @@ docker build -t 镜像名称:tag  .
 ```
 docker run -it -v 宿主机目录:容器目录
 ```
+
+
 
 ##  编写Dockerfile文件
 
