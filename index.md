@@ -13,6 +13,7 @@
 
     main > a{
         display: block;
+        box-sizing: border-box;
         background: oldLace;
         border-radius: 10px;
         min-width: 150px;
