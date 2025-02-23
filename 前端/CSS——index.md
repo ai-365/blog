@@ -42,6 +42,15 @@
 
 -->
 
+<style>
+    blockquote{
+        background: oldLace;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+</style>
 > [规则](CSS——规则)  
 >  优先级、!im> portant标记
 
