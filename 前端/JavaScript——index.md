@@ -1,3 +1,13 @@
+<style>
+    blockquote{
+        background: oldLace;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+</style>
+
+##  JavaScript
 
 > [简介](JavaScript——简介.md)    
 > 历史、组成、标准、ES6发布以来的新特性
