@@ -1,5 +1,6 @@
 <p id="toc">目录：</p>
 <a href="#toc" style="position:fixed; opacity:0.1;bottom:5vw;left:5vw;font-size:1.5rem ">🔼</a>
+<style>ul{list-style-type:none;}</style>
 
 - [原始值和引用值](#原始值和引用值)
 - [typeof 操作符](#typeof-操作符)
