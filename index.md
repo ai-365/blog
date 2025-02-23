@@ -47,11 +47,11 @@
 </style>
 
 
->  ### 人工智能     
+> ### 人工智能     
 > [Python](Python/Python——index)
 
 
->  ### [前端](前端/前端——index)    
+> ### [前端](前端/前端——index)    
 >  [JavaScript](前端/前端——index#javascript)       
 >  [Node.js](前端/前端——index#nodejs)       
 >  [CSS](前端/前端——index#css)       
@@ -61,7 +61,7 @@
 
 
 
->  ### Linux     
+> ### Linux     
 >  [Linux](Linux/Linux——index)
 
 
