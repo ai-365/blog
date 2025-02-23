@@ -3,7 +3,7 @@
 <style>
     main{
         box-sizing: border-box;
-        width:70vw;
+        width:90vw;
         position: absolute;
         left:5vw;
         display:flex;
