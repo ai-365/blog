@@ -1,5 +1,24 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-# 模块、包、pip
+- [模块和包](#模块和包)
+  - [示例](#示例)
+  - [包和模块的区别](#包和模块的区别)
+  - [包和文件夹的区别](#包和文件夹的区别)
+  - [import 语法](#import-语法)
+  - [from import 语法](#from-import-语法)
+  - [import和from import的区别](#import和from-import的区别)
+  - [from 相对导入](#from-相对导入)
+  - [导入包时具体执行了什么？](#导入包时具体执行了什么)
+- [模块](#模块)
+- [pip包管理器](#pip包管理器)
+  - [基础用法](#基础用法)
+  - [换源](#换源)
+  - [自定义安装位置](#自定义安装位置)
+  - [包搜索顺序](#包搜索顺序)
+  - [PYTHONPATH](#pythonpath)
+- [虚拟环境：venv](#虚拟环境venv)
+
 
 ## 模块和包
 

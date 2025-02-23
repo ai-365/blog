@@ -1,16 +1,18 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-# Jupyter
+- [Juypter Notebook和Jupyter Lab的区别](#juypter-notebook和jupyter-lab的区别)
+- [Jupyter Lab](#jupyter-lab)
+- [Jupyter的快捷键](#jupyter的快捷键)
+- [在Notebook中执行系统命令](#在notebook中执行系统命令)
 
-
-Jupyter广泛用于Python学习、数据科学、机器学习领域，结合了可运行的代码和Markdown文本，可以更直观的展现Python工作流。
-
-##  Juypter Notebook和Jupyter Lab的区别
+###  Juypter Notebook和Jupyter Lab的区别
 
 Jupyter Lab是Jupyter Notebook的升级版，Jupyter Lab可以同时打开多个ipynb文件。
 
 许多提供AI开发服务的云服务厂商提供了云端开箱即用的Jupyter Lab环境。因此推荐使用Jupyter Lab。
 
-##  Jupyter Lab
+###  Jupyter Lab
 
 如果要在本地使用Jupyter Lab，先使用pip 安装：
 
@@ -26,7 +28,7 @@ jupyter-lab
 
 启动jupyter。
 
-##  Jupyter的快捷键
+###  Jupyter的快捷键
 
 
 操作	|	快捷键
@@ -45,7 +47,7 @@ jupyter-lab
 清除输出	|	Ctrl+E
 
 
-## 在Notebook中执行系统命令
+### 在Notebook中执行系统命令
 
 !开头以模拟系统命令。例如使用pip安装Python包：
 

@@ -1,5 +1,9 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-#  执行系统命令
+- [命令行参数](#命令行参数)
+- [读写环境变量](#读写环境变量)
+- [桌面通知](#桌面通知)
 
 使用os.system()可以执行系统的命令，例如：
 
@@ -11,7 +15,7 @@ os.system('other.py')
 
 
 
-#  命令行参数
+### 命令行参数
 
 一些Python脚本需要处理命令行参数。这些参数以列表形式存储在sys模块的argv属性中。
 
@@ -37,7 +41,7 @@ python demo.py one two three
 第一个元素是脚本文件名，后面的元素为依次传入的参数。
 
 
-# 读写环境变量
+### 读写环境变量
 
 系统的所有环境变量都存储在os.environ中，这是一个字典。
 
@@ -56,7 +60,7 @@ os.environ['path'] += ';'+r'D:\Test'
 
 
 
-# 桌面通知
+### 桌面通知
 
 使用plyer库，可以直接发送桌面通知。
 

@@ -1,5 +1,19 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-# HTTP
+
+- [HTTP服务器](#http服务器)
+  - [快速启动静态文件服务器](#快速启动静态文件服务器)
+  - [使用FastAPI实现HTTP服务器](#使用fastapi实现http服务器)
+  - [使用requests模块发送请求](#使用requests模块发送请求)
+  - [在flask中构造json响应体](#在flask中构造json响应体)
+- [Jinja2](#jinja2)
+  - [渲染模板字符串](#渲染模板字符串)
+  - [渲染模板HTML](#渲染模板html)
+  - [使用flask和jinja2渲染模板HTML](#使用flask和jinja2渲染模板html)
+
+
+##  HTTP服务器
 
 ###   快速启动静态文件服务器
 
@@ -125,11 +139,11 @@ def get_users():
     return jsonify(users=users)
 ```
 
-# Jinja2
+## Jinja2
 
 Jinja2是一种模板语言，类似于 f 字符串或者format()函数，可以将包含变量的字符串或HTML模板文件渲染成最终的文本。
 
-##   渲染模板字符串
+###   渲染模板字符串
 
 ```py
 from jinja2 import Template
@@ -140,7 +154,7 @@ template.render(name='John Doe')
 
 通过创建一个 Template 的实例，你会得到一个新的模板对象，提供一 个名为 render() 的方法，该方法在有字典或关键字参数时调用 扩充模板。字典或关键字参数会被传递到模板，即模板“上下文”。
 
-##  渲染模板HTML
+###  渲染模板HTML
 
 首先创建一个HTML文件，将需要解析的变量使用双花括号包裹，示例如下：
 
@@ -168,7 +182,6 @@ template = env.get_template('example.html')
 html = template.render(title='Python Jinja2', content='This is a blog about Python Jinja2.')
 # 打印渲染后的 HTML 字符串
 print(html)
-
 ```
 
 可以得到如下标准的HTML内容输出：
@@ -187,7 +200,7 @@ print(html)
 ```
 
 
-##   使用flask和jinja2渲染模板HTML
+###   使用flask和jinja2渲染模板HTML
 
 在使用模板引擎（如Jinja2）构建动态网页时 ，列表数据常被用来生成表格、列表项等重复结构。例如下面的HTML模板文件：
 

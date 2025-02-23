@@ -1,6 +1,13 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-# 字符串
-
+- [内置函数str()](#内置函数str)
+- [format()](#format)
+- [大小写](#大小写)
+- [合并字符串](#合并字符串)
+- [isxxxx()系列函数](#isxxxx系列函数)
+- [移除前缀、后缀](#移除前缀后缀)
+- [startswith()和endswith()](#startswith和endswith)
 
 ### 内置函数str()
 
