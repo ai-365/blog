@@ -1,7 +1,20 @@
-import TOCInline from '@theme/TOCInline';
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-<TOCInline toc={toc} />
- 
+- [界面](#界面)
+- [视频效果](#视频效果)
+  - [筛选器](#筛选器)
+  - [颜色调整](#颜色调整)
+  - [淡入或淡出视频或音频](#淡入或淡出视频或音频)
+  - [交叉淡化](#交叉淡化)
+- [文本](#文本)
+- [添加颜色背景](#添加颜色背景)
+- [组合视频](#组合视频)
+- [放大与缩小时间线](#放大与缩小时间线)
+- [更改纵横比](#更改纵横比)
+- [旋转视频](#旋转视频)
+- [更改视频片段的速度](#更改视频片段的速度)
+- [快捷键](#快捷键)
 
 
 # Clipchamp
@@ -99,8 +112,6 @@ import TOCInline from '@theme/TOCInline';
 
 
 # Excalidraw
-
-
 
 ## 快捷键
 
