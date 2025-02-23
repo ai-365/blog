@@ -7,6 +7,9 @@
         margin: 10px;
         border: none;
     }
+    blockquote:nth-of-type(even){
+        background: lavender;
+    }
 </style>
 
 ##  JavaScript
