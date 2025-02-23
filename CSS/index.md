@@ -1,8 +1,16 @@
-#   CSS
+##   CSS
 
 <style>
+    main{
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+    }
+
     section{
-        width: 80vw;
+        min-width: 300px;
+        max-width: 600px; 
         margin-top:20px;
         display: flex;
         flex-direction: column;
@@ -11,6 +19,8 @@
         border-radius: 15px;
     }
 </style>
+
+<main>
 
 <section style="background:oldLace;">
 <a href="CSS——规则">规则</a>
@@ -27,4 +37,4 @@
 <a href="CSS——TailwindowCSS">TailwindowCSS</a>
 </section>
 
-
+</main>
