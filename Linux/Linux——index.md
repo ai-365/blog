@@ -1,3 +1,16 @@
+<style>
+    blockquote{
+        background: oldLace;
+        padding: 20px  20px 15px !important;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: none !important;
+    }
+    blockquote:nth-of-type(even){
+        background: lavender;
+    }
+</style>
+
 > [基础](Linux——基础.md)     
 > 基础介绍
 

@@ -33,14 +33,13 @@
 </main>
 -->
 
-
 <style>
     blockquote{
         background: oldLace;
-        padding: 5px  20px 1px;
-        margin-top: 20px;
+        padding: 20px  20px 15px !important;
         border-radius: 10px;
-        border: none;
+        margin-top: 10px;
+        border: none !important;
     }
     blockquote:nth-of-type(even){
         background: lavender;
