@@ -43,6 +43,7 @@
 > 函数的语法规则、参数、内部
 
 > [解析URL](JavaScript——解析URL.md)    
+> URL()是内置函数，用于解析URL的组成部分，如host、协议、路径、查询参数
 
 
 > [面向对象](JavaScript——面向对象.md)    
@@ -51,35 +52,30 @@
 > [期约和异步](JavaScript——期约和异步.md)    
 > 同步和异步、期约、期约链、async/await、顶层await
 
-
 > [原型链](JavaScript——原型链.md)    
 > 重点内容
 
 
-
-
-
-
-
 > [自定义事件](JavaScript——自定义事件.md)    
-
+> 事件是一切通信的基础，只要涉及到数据传递，必然要用到事件的定义、监听和触发
 
 > [cookie](JavaScript——cookie.md)    
-
+> cookie是早期的浏览器本地存储实现
 
 > [DOM](JavaScript——DOM.md)    
-
+> DOM非常重要，浏览器中的JavaScript的核心
 
 > [Iframe和PostMessage](JavaScript——Iframe和PostMessage.md)    
-
+> Iframe用来内嵌另一个页面，postmessages用于主页面和内嵌页面之间的通信
 
 > [JSON](JavaScript——JSON.md)    
-
+> JSON是最流行的数据交换格式，无论是本地通信还是HTTP
 
 > [Map和Set](JavaScript——Map和Set.md)    
-
+> Map和Set类似于对象和数组，但扩充了一些专有特征
 
 > [WebAPI](JavaScript——WebAPI.md)    
+> WebAPI非常丰富，使得浏览器可以得到许多原生能力，如经纬度位置、通知、本地文件系统读写等
 
 
 ##  CSS
