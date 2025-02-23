@@ -25,10 +25,10 @@
 
 </style>
 <main>
-    <a href="CSS/index" style="background:lavender">CSS</a>
-    <a href="Electron.md" style="background:MintCream">Electron</a>
-    <a href="React/index" style="background:MistyRose">React</a>
-    <a href="React-Native/index" style="background:PeachPuff">React<br>Native</a>
+    <a href="前端/前端——index" style="background:lavender">前端</a>
+    <a href="前端/Electron——Electron" style="background:MintCream">Electron</a>
+    <a href="前端/React——React" style="background:MistyRose">React</a>
+    <a href="前端/React-Native——安卓平台打包" style="background:PeachPuff">React<br>Native</a>
 
 </main>
 
