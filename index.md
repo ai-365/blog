@@ -7,19 +7,21 @@
 
     a{
         display: block;
-        padding:50px;
         background: oldLace;
         border-radius: 10px;
+        min-width: 150px;
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    a:nth-of-type(2n){
-        background: lightblue;
-    }
+
 </style>
 <main>
-    <a href="CSS/index">CSS</a>
-    <a href="Electron/index">CSS</a>
-    <a href="React/index">CSS</a>
-    <a href="React-Native/index">CSS</a>
+    <a href="CSS/index" style="background:lavender">CSS</a>
+    <a href="Electron/index" style="background:MintCream">Electron</a>
+    <a href="React/index" style="background:MistyRose">React</a>
+    <a href="React-Native/index" style="background:PeachPuff">React<br>Native</a>
 
 </main>
 
