@@ -49,6 +49,7 @@
 
 
 >  ###  人工智能
+> [Python](Python/Python——index)
 
 
 >  ###  [前端](前端/前端——index)
