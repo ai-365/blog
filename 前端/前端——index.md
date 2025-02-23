@@ -13,10 +13,10 @@
 <style>
     blockquote{
         background: oldLace;
-        padding: 20px  20px 1px !important;
+        padding: 20px  20px 15px !important;
         border-radius: 10px;
         margin-top: 10px;
-        border: none;
+        border: none !important;
     }
     blockquote:nth-of-type(even){
         background: lavender;
