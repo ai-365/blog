@@ -23,14 +23,12 @@
 [Docker](Docker——Docker命令.md)
 :::
 
-::: warning  云计算
-[函数计算](../Node.js/云计算——函数计算.md)
-:::
+
 
 
 ::: tip sed、awk                      
-[sed工具](sed工具.md)                       
-[awk工具](Shell/awk工具.md)                       
+[sed工具](Shell——sed工具.md)                       
+[awk工具](Shell——awk工具.md)                       
 :::                         
      
 ::: warning 脚本     

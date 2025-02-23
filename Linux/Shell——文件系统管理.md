@@ -1,5 +1,24 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-# 文件系统管理
+- [文件系统管理命令汇总](#文件系统管理命令汇总)
+- [Linux目录树的组织原则](#linux目录树的组织原则)
+- [ls命令](#ls命令)
+- [切换当前目录：cd命令](#切换当前目录cd命令)
+- [复制文件](#复制文件)
+- [复制目录](#复制目录)
+- [mv命令](#mv命令)
+- [rm命令](#rm命令)
+- [获取文件名和目录名：basename和dirname命令](#获取文件名和目录名basename和dirname命令)
+- [查看文件内容](#查看文件内容)
+- [cat命令](#cat命令)
+- [head和tail命令](#head和tail命令)
+- [比较文件内容： cmp命令](#比较文件内容-cmp命令)
+- [split命令](#split命令)
+- [cut](#cut)
+- [排序：sort命令](#排序sort命令)
+- [grep命令](#grep命令)
+
 
 ##   文件系统管理命令汇总
 

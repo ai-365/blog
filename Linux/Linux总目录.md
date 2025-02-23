@@ -1,4 +1,4 @@
-[00Linux——index.md](00Linux——index.md)      
+[00Linux——index.md](Linux——index.md)      
 [C++入门.md](C++入门.md)      
 [C语言入门.md](C语言入门.md)      
 [Docker——Docker命令.md](Docker——Docker命令.md)      

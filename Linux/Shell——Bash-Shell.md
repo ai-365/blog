@@ -1,5 +1,8 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-#  Bash Shell
+- [Bash的配置文件](#bash的配置文件)
+- [Bash Shell的快捷键](#bash-shell的快捷键)
 
 ##  Bash的配置文件
 

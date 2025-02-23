@@ -1,7 +1,12 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-# PowerShell
-
-
+- [别名](#别名)
+- [获取内置别名：Get-Alias](#获取内置别名get-alias)
+- [创建别名](#创建别名)
+- [内置的常用别名](#内置的常用别名)
+- [具有参数的命令的备用名称](#具有参数的命令的备用名称)
+- [读取文本文件内容](#读取文本文件内容)
 
 ## 别名
 

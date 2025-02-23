@@ -1,5 +1,12 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-# awk工具
+- [语法](#语法)
+- [示例](#示例)
+- [内部变量](#内部变量)
+- [行筛选条件](#行筛选条件)
+- [if语句](#if语句)
+
 
 ##  语法
 

@@ -1,5 +1,21 @@
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
 
-#  常用命令
+- [which命令](#which命令)
+- [type命令](#type命令)
+- [输出到终端——echo命令](#输出到终端echo命令)
+- [写内容到文件的快速方式](#写内容到文件的快速方式)
+- [read命令](#read命令)
+- [将输入存入数组](#将输入存入数组)
+- [查看系统与内核相关信息](#查看系统与内核相关信息)
+- [远程连接：ssh命令](#远程连接ssh命令)
+- [网络请求：curl命令](#网络请求curl命令)
+- [find](#find)
+- [locate](#locate)
+- [进程管理](#进程管理)
+- [更改apt镜像源](#更改apt镜像源)
+- [使用apt管理软件包](#使用apt管理软件包)
+
 
 ## which命令
 
