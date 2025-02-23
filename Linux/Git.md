@@ -1,5 +1,23 @@
-# Git
-[[toc]]
+<p id="toc">目录：</p>
+<a href="#toc" style="position:fixed; opacity:0.1;top:60vh;font-size:1.5rem ">🔼</a>
+
+- [安装Git](#安装git)
+- [配置SSH登录](#配置ssh登录)
+- [配置用户名和邮箱](#配置用户名和邮箱)
+- [Git Bash](#git-bash)
+- [Git的原理和 .git 文件夹](#git的原理和-git-文件夹)
+- [git clone](#git-clone)
+- [使用git clone 而不是 git init](#使用git-clone-而不是-git-init)
+- [git add](#git-add)
+- [git branch分支管理](#git-branch分支管理)
+- [远程仓库管理](#远程仓库管理)
+- [git commit](#git-commit)
+- [git push](#git-push)
+- [个人项目Git常用的命令](#个人项目git常用的命令)
+- [查看提交历史](#查看提交历史)
+- [回退](#回退)
+- [标签](#标签)
+
 
 ##  安装Git
 
@@ -86,6 +104,7 @@ git config  --global  user.email "邮箱"
 bash也支持家目录，使用 ` cd ~ `会回到用户的个人目录，其实是进入了Windows系统的 ` C:\Users\用户名\ ` 文件夹。
 
 ##   Git的原理和 .git 文件夹
+Git的核心是.git文件夹，.git文件夹的核心是三个区：
 
 - 工作区：  在这里开始编辑。
 - 暂存区：  在修改文件后，通过git add 将修改添加到暂存区。暂存区的本质其实是要提交到仓库的文件列表。
