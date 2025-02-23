@@ -2,9 +2,10 @@
 <style>
     blockquote{
         background: oldLace;
-        padding: 10px;
+        padding: 20px;
         border-radius: 10px;
         margin: 10px;
+        border: none;
     }
 </style>
 
@@ -17,6 +18,7 @@
 > 注释、数据类型（原始、引用）、相等判定
 
 > [字符串](JavaScript——字符串.md)   
+> 字符串的特点、原始值引用类型、字符串的实用方法
  
 > [正则表达式](JavaScript——正则表达式.md)    
 > 文本处理的实用工具
