@@ -26,7 +26,7 @@
 </style>
 <main>
     <a href="CSS/index" style="background:lavender">CSS</a>
-    <a href="Electron/index" style="background:MintCream">Electron</a>
+    <a href="Electron.md" style="background:MintCream">Electron</a>
     <a href="React/index" style="background:MistyRose">React</a>
     <a href="React-Native/index" style="background:PeachPuff">React<br>Native</a>
 
