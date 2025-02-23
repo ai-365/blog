@@ -1,16 +1,18 @@
-> [! tip]
-[人工智能](人工智能/index.md) 
-> 
+> [!TIP]  人工智能
+> [人工智能](人工智能/index.md) 
 
-> [! tip]
-[JavaScript](JavaScript/index.md)  
-> 
+> [!IMPORTANT] JavaScript
+> [JavaScript](JavaScript/index.md)  
 
-> [! tip]
+
+> [!TIP]
 > [Python](Python/index.md)  
 
+> [!TIP]
+> [Python](CSS/index.md)  
 
-> [! tip]
+
+> [!IMPORTANT]
 > [Linux](Linux/index.md)  
 
 
