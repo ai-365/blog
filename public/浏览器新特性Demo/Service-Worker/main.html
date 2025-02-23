@@ -1,0 +1,13 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Worker</title>
+
+<h1>Servie Worker 示例：缓存优先</h1>
+
+这是两个测试文件链接，先访问一次，然后断掉网络，无论是刷新还是退出浏览器重新访问，都能打开：<br><br>
+<a href="./测试文件1.html">测试文件1.html</a>
+<a href="./测试文件2.html">测试文件2.html</a>
+
+<script type="module">
+  // 一行代码注册service-worker.js
+  await navigator.serviceWorker.register('./service-worker.js')
+</script>

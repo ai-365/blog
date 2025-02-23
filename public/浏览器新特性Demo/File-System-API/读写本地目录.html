@@ -1,0 +1,64 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<h1>本示例打开一个本地目录（文件夹），创建文件或子目录，并列举目录中的子项</h1>
+
+<button id='open-dir-button'>打开一个本地目录</button>
+<br><br>
+
+<!-- 创建文件 -->
+<input type="text" id="new-file-name"><button id="create-file-button">创建文件</button>
+<br><br>
+
+<!-- 创建子目录 -->
+<input type="text" id="new-sub-dir-name"><button id="create-sub-dir-button">创建子目录</button>
+<br><br>
+
+
+
+
+
+
+<button id="list-dir-button">列举目录中的子项</button> <br>
+<p>目录中的子项目包括：</p>
+<div id="list-result" style="background: gainsboro;padding:15px;"></div>
+
+<script type="module">
+    // dirHandle 是这个本地目录的句柄，非常重要，提升为全局变量
+    let dirHandle
+
+    const openDirButton = document.querySelector('#open-dir-button')
+    openDirButton.onclick = async () => {
+        dirHandle = await window.showDirectoryPicker()
+        console.log(dirHandle)
+    }
+
+    // 获取文件句柄，不存在就新建
+    const createFileButton = document.querySelector('#create-file-button')
+    createFileButton.onclick = async () => {
+        const newFileName = document.querySelector('#new-file-name').value
+        const fileHandle = await dirHandle.getFileHandle(newFileName, { create: true })
+    }
+
+
+    // 获取子目录句柄，不存在就新建
+    const createSubDirButton = document.querySelector('#create-sub-dir-button')
+
+    createSubDirButton.onclick = async () => {
+        const newSubDirName = document.querySelector('#new-sub-dir-name').value
+        const subDirHandle = await dirHandle.getDirectoryHandle(newSubDirName, { create: true })
+    }
+
+    // 列举目录
+    const listDirButton = document.querySelector('#list-dir-button')
+    listDirButton.onclick = async () => {
+        // 先清空之前的内容：
+        const listResult = document.querySelector('#list-result')
+        listResult.innerHTML = ''
+
+        const entries = await dirHandle.entries()
+        for await (let [name, handle] of entries) {
+            document.querySelector('#list-result').innerHTML += ` 名称："${name}" + 类型：${handle.kind} <br>`
+        }
+    }
+</script>

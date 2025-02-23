@@ -1,0 +1,39 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<h3>实时写入本地文件示例</h3>
+<button id='open-file-button'>打开本地文件</button>
+<p>实时文件内容（每1500毫秒更新）：</p>
+<div id="content" style="background: gainsboro;padding:10px;width:50vw;"></div>
+<p>请输入新内容：</p>
+<textarea id="text-area"></textarea>
+<script type="module">
+
+    const openFileButton = document.querySelector('#open-file-button')
+    openFileButton.onclick = async () => {
+        const [fileHandle] = await window.showOpenFilePicker()
+
+
+        document.querySelector('#text-area').oninput = handleWrite
+
+
+        async function handleWrite() {
+            setTimeout(async () => {
+                const writable = await fileHandle.createWritable()
+                const textArea = document.querySelector('#text-area')
+                writable.write(textArea.value)
+                // 一定要close()才会保存，也方便被读取
+                writable.close()
+            }, 1000)
+
+        }
+
+        setInterval(async () => {
+            const file = await fileHandle.getFile()
+            const content = await file.text()
+            document.querySelector('#content').textContent = content
+        }, 1500)
+    }
+
+
+
+
+</script>

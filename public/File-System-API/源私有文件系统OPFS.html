@@ -1,0 +1,65 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<h1>本示例读写源私有文件系统，创建文件或子目录，并列举目录中的子项</h1>
+
+<!-- 创建文件 -->
+<input type="text" id="new-file-name"><button id="create-file-button">创建文件</button>
+<br><br>
+
+<!-- 创建子目录 -->
+<input type="text" id="new-sub-dir-name"><button id="create-sub-dir-button">创建子目录</button>
+<br><br>
+
+<button id="list-dir-button">列举目录中的子项</button> <br>
+<p>目录中的子项目包括：</p>
+<div id="list-result" style="background: gainsboro;padding:15px;"></div>
+
+<br><br>
+<button id="clear-root-dir">清空根目录</button>
+
+<script type="module">
+    // rootHandle 是源私有文件系统的根目录句柄，非常重要，提升为全局变量
+    let rootHandle
+
+    // 这一行非常重要，与打开本地目录的区别就在这里
+    rootHandle = await navigator.storage.getDirectory()
+
+
+    // 获取文件句柄，不存在就新建
+    const createFileButton = document.querySelector('#create-file-button')
+    createFileButton.onclick = async () => {
+        const newFileName = document.querySelector('#new-file-name').value
+        const fileHandle = await rootHandle.getFileHandle(newFileName, { create: true })
+    }
+
+
+    // 获取子目录句柄，不存在就新建
+    const createSubDirButton = document.querySelector('#create-sub-dir-button')
+
+    createSubDirButton.onclick = async () => {
+        const newSubDirName = document.querySelector('#new-sub-dir-name').value
+        const subDirHandle = await rootHandle.getDirectoryHandle(newSubDirName, { create: true })
+    }
+
+    // 列举目录
+    const listDirButton = document.querySelector('#list-dir-button')
+    listDirButton.onclick = async () => {
+        // 先清空之前的内容：
+        const listResult = document.querySelector('#list-result')
+        listResult.innerHTML = ''
+
+        const entries = await rootHandle.entries()
+        for await (let [name, handle] of entries) {
+            document.querySelector('#list-result').innerHTML += ` 名称："${name}" + 类型：${handle.kind} <br>`
+        }
+    }
+
+
+    // 清空OPFS根目录，选项表示递归删除
+    document.querySelector('#clear-root-dir').onclick = async () => {
+        await rootHandle.remove({ recursive: true })
+
+    }
+
+</script>
