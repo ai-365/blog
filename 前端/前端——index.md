@@ -13,7 +13,7 @@
 <style>
     blockquote{
         background: oldLace;
-        padding: 20px  20px 1px;
+        padding: 20px  20px 1px !important;
         border-radius: 10px;
         margin-top: 10px;
         border: none;
