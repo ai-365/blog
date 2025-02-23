@@ -5,7 +5,7 @@
         box-sizing: border-box;
         width:70vw;
         position: absolute;
-        left:15vw;
+        left:5vw;
         display:flex;
         flex-wrap: wrap;
         gap:20px;
