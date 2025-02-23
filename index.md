@@ -2,10 +2,16 @@
 
 <style>
     main{
-        box-sizing:border-box;width:70vw;left:15vw;display:flex;gap:20px;
+        box-sizing: border-box;
+        width:70vw;
+        position: absolute;
+        left:15vw;
+        display:flex;
+        flex-wrap: wrap;
+        gap:20px;
     }
 
-    a{
+    main > a{
         display: block;
         background: oldLace;
         border-radius: 10px;
