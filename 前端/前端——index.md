@@ -2,7 +2,7 @@
 <style>
     blockquote{
         background: oldLace;
-        padding: 20px;
+        padding: 20px  20px 5px;
         border-radius: 10px;
         margin: 10px;
         border: none;
