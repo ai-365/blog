@@ -2,9 +2,9 @@
 <style>
     blockquote{
         background: oldLace;
-        padding: 1rem  1rem 0.5rem;
+        padding: 20px  20px 1px;
         border-radius: 10px;
-        margin: 10px;
+        margin-top: 10px;
         border-style: none;
     }
     blockquote:nth-of-type(even){
