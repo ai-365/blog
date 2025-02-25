@@ -3,5 +3,7 @@
 
 @import "{{ site.theme }}";
 
-p{color:red;}
-body{background:blue;}
+a[href="https://ai-365.github.io/"]{
+  font-size: 1rem;
+  color: black;
+}
