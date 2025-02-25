@@ -91,7 +91,6 @@
         <div style="background:gainsboro"><span>浅灰</span><span>gainsboro</span></div>
         <div style="background:lightsalmon"><span>浅鲑红</span><span>lightsalmon</span></div>
         <div style="background:plum"><span>李子</span><span>plum</span></div>
-        <div style="background:mintcream"><span>薄荷奶油</span><span>mintcream</span></div>
         <div style="background:violet"><span>紫罗兰</span><span>violet</span></div>
         
 
