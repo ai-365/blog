@@ -66,7 +66,6 @@
         <div style="background:lavenderBlush"><span>淡紫红</span><span>lavenderBlush</span></div>
         <div style="background:mintCream"><span>薄荷奶油</span><span>mintCream</span></div>
         <div style="background:WhiteSmoke"><span>白色烟雾</span><span>WhiteSmoke</span></div>
-        <div style="background:MintCream"><span>薄荷奶油</span><span>MintCream</span></div>
         <div style="background:MistyRose"><span>薄雾玫瑰</span><span>MistyRose</span></div>
         <div style="background:Thistle"><span>蓟</span><span>Thistle</span></div>
         <div style="background:SeaShell"><span>贝壳</span><span>SeaShell</span></div>
@@ -76,8 +75,26 @@
         <div style="background:Snow"><span>雪白</span><span>Snow</span></div>
         <div style="background:Linen"><span>亚麻布</span><span>Linen</span></div>
         <div style="background:HoneyDew"><span>蜜露</span><span>HoneyDew</span></div>
-        <div style="background:玉米色"><span>玉米色</span><span>玉米色</span></div>
         <div style="background:Beige"><span>浅褐色</span><span>Beige</span></div>
+        <div style="background:aliceblue"><span>爱丽丝蓝</span><span>aliceblue</span></div>
+        <div style="background:antiquewhite"><span>古董白</span><span>antiquewhite</span></div>
+        <div style="background:bisque"><span>釉下彩</span><span>bisque</span></div>
+        <div style="background:blanchedalmond"><span>杏仁色</span><span>blanchedalmond</span></div>
+        <div style="background:blueviolet"><span>蓝紫色</span><span>blueviolet</span></div>
+        <div style="background:burlywood"><span>红木色</span><span>burlywood</span></div>
+        <div style="background:coral"><span>珊瑚礁</span><span>coral</span></div>
+        <div style="background:cornflowerblue"><span>矢车菊蓝</span><span>cornflowerblue</span></div>
+        <div style="background:cornsilk"><span>玉米须</span><span>cornsilk</span></div>
+        <div style="background:crimson"><span>猩红</span><span>crimson</span></div>
+        <div style="background:darksalmon"><span>暗鲑红</span><span>darksalmon</span></div>
+        <div style="background:fuchsia"><span>紫红</span><span>fuchsia</span></div>
+        <div style="background:gainsboro"><span>浅灰</span><span>gainsboro</span></div>
+        <div style="background:lightsalmon"><span>浅鲑红</span><span>lightsalmon</span></div>
+        <div style="background:plum"><span>李子</span><span>plum</span></div>
+        <div style="background:mintcream"><span>薄荷奶油</span><span>mintcream</span></div>
+        <div style="background:violet"><span>紫罗兰</span><span>violet</span></div>
+        
+
 
 </div>
 
