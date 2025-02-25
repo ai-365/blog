@@ -43,56 +43,43 @@
 背景颜色使用background-color，不过，一般可以简写为background。
 
 ### 常见的颜色名称参考
-<br>
-
-<script setup>
-        const  items = [
-                {text:'蔚蓝', color:'azure'},
-                {text:'淡蓝', color:'lightblue'},
-                {text:'爱丽丝蓝', color:'AliceBlue'},
-                {text:'薰衣草', color:'lavender'},
-                {text:'淡紫红', color:'LavenderBlush'},
-                {text:'薄荷奶油', color:'MintCream'},
-                {text:'白色烟雾', color:'WhiteSmoke'},
-                {text:'薄雾玫瑰', color:'MistyRose'},
-                {text:'蓟', color:'Thistle'},
-                {text:'薄雾玫瑰', color:'MistyRose'},
-                {text:'贝壳', color:'SeaShell'},
-                {text:'桃', color:'PeachPuff'},
-                {text:'兰花草', color:'Orchid'},
-                {text:'旧蕾丝', color:'OldLace'},
-                {text:'雪白', color:'Snow'},
-                {text:'亚麻布', color:'Linen'},
-                {text:'蜜露', color:'HoneyDew'},
-                {text:'玉米色', color:'Cornsilk'},
-                {text:'浅褐色', color:'Beige'},
-        ]
-</script>
-
-<div  id="container" >
-    <div v-for="item in items"  :style="{background: item.color}" class="item"><span>{{item.text}}</span> <span> {{item.color}}</span></div>
-</div>
-
-<style scoped>
-        #container{
-                display: flex;
-                gap: 20px;
-                flex-wrap: wrap;
-        }
-
-        .item{
-                border-radius: 20px;
-                min-width: 150px;
-                min-height: 150px;
-                display:flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-        }
+<style>
+    #color-reference{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    #color-reference > div{
+           border-radius: 20px;
+           min-width: 150px;
+           min-height: 150px;
+           display:flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+    }
 </style>
+<div id="color-reference">
+        <div style="background:azure"><span>蔚蓝</span><span>azure</span></div>
+        <div style="background:lightblue"><span>淡蓝</span><span>lightblue</span></div>
+        <div style="background:lavender"><span>薰衣草</span><span>lavender</span></div>
+        <div style="background:lavenderBlush"><span>淡紫红</span><span>lavenderBlush</span></div>
+        <div style="background:mintCream"><span>薄荷奶油</span><span>mintCream</span></div>
+        <div style="background:WhiteSmoke"><span>白色烟雾</span><span>WhiteSmoke</span></div>
+        <div style="background:MintCream"><span>薄荷奶油</span><span>MintCream</span></div>
+        <div style="background:MistyRose"><span>薄雾玫瑰</span><span>MistyRose</span></div>
+        <div style="background:Thistle"><span>蓟</span><span>Thistle</span></div>
+        <div style="background:SeaShell"><span>贝壳</span><span>SeaShell</span></div>
+        <div style="background:PeachPuff"><span>桃</span><span>PeachPuff</span></div>
+        <div style="background:Orchid"><span>兰花草</span><span>Orchid</span></div>
+        <div style="background:OldLace"><span>旧蕾丝</span><span>OldLace</span></div>
+        <div style="background:Snow"><span>雪白</span><span>Snow</span></div>
+        <div style="background:Linen"><span>亚麻布</span><span>Linen</span></div>
+        <div style="background:HoneyDew"><span>蜜露</span><span>HoneyDew</span></div>
+        <div style="background:玉米色"><span>玉米色</span><span>玉米色</span></div>
+        <div style="background:Beige"><span>浅褐色</span><span>Beige</span></div>
 
-
-
+</div>
 
 
 ###  背景图片background-image
